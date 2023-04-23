@@ -1,0 +1,128 @@
+/* Write some CSS below :<head>
+  <meta charset="UTF-8">
+  <title>KEDGE - Web Development Sprint</title>
+  <link rel="stylesheet" href="style.css">
+</head> */
+
+/* 1. Global design first: Body, Headers, Colors, Fonts, Font size, Font weight /;*/
+
+body {
+    background-color: black;
+    color:#4d5470;
+    font-family: Arial;
+    font-size: 20px;
+    text-decoration: none;
+    background-image: linear-gradient(to top, black 0%, #D39777 100%);
+}
+
+
+
+  h1 {
+    font-size: 40px;
+    color: #006280;
+    font-weight: 900;
+  }
+  
+
+h2 {
+  font-size: 25px;
+  text-decoration: wavy;
+  color: #88B395;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+h3 {
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+ul li {
+    font-size: 20px;
+    color: 006280;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+ 
+
+a {
+    display: inline-block;
+   background-color: black;
+    padding: 16px 30px;
+    color: #FFFFFF;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  a:hover {
+    background-color: #D39777;
+    color: #FFFFFF;
+    
+  }
+  
+ #intro {
+    text-align: center;
+
+ }
+
+img { 
+  box-shadow: 10px 10px 20px #3D633D;
+  height: 200px;
+  border-radius: 5px;
+  background-position: center;
+  background-size: auto;
+}
+
+
+
+.card-white{
+    background: white;
+    text-align: justify;
+    margin: 10px 0;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+
+
+/**************************/
+ 
+.container{
+  width: 900px;
+  margin: 20px auto;
+}
+.container2{
+    width: 700px;
+    margin: 5px auto;
+}
+
+.container social-icons{
+    text-align: left;
+    padding: 10px;
+    margin: 5Px auto;
+    box-shadow: 0px 10px 20px ;
+   
+}
+.cards { 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 16px;
+}
+/**************************/
+
+
+ .social-icons {
+    text-align: center;
+  }
+  
+  .social-icons a {
+    display: inline-block;
+   
+  }
+  
+  .social-icons img {
+    width: 50px;
+    height: 50px;
+  }
+  
